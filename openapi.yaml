@@ -1,0 +1,89 @@
+swagger: "2.0"
+info:
+  description: "Dhimahi employment opportunity test task"
+  version: "1.0.0"
+  title: "DHI-TEST"
+host: "demo.dhimahi.com"
+basePath: "/v1"
+paths:
+  /current:
+    get:
+      summary: Get current weather
+      description: |
+        Get current weather base on specific location.
+        * for datasource use: `https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si_latest.xml`
+        * if `lat` AND `lon` are provided > find nearest weather station and get data from it
+        * if `lat` AND|OR `lon` is not provided > return list off all stations (`distance=null`)
+      operationId: getCurrent
+      parameters:
+        - name: lat
+          in: query
+          description: Latitude of the current location
+          required: false
+          type: number
+        - name: lon
+          in: query
+          description: Longitude of the current location
+          required: false
+          type: number
+      produces:
+        - "application/json"
+      responses:
+        "200":
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              stations:
+                type: array
+                items:
+                  type: object
+                  required:
+                    - lat
+                    - lon
+                    - name
+                    - distance
+                    - temperature
+                    - humidity
+                  properties:
+                    lat:
+                      type: number
+                      description: |
+                        Latitude of the weather station from where data is taken.
+                        Mapping: `metData.domain_lat`
+                      example: 45.8958
+                    lon:
+                      type: number
+                      description: |
+                        Longitude of the weather station from where data is taken.
+                        Mapping: `metData.domain_lon`
+                      example: 13.6289
+                    name:
+                      type: string
+                      description: |
+                        Name of the weather station from where data is taken.
+                        Mapping: `metData.domain_title`
+                      example: NOVA GORICA
+                    distance:
+                      type:
+                        - number
+                        - "null"
+                      description: Distance from current location and weather station (in meters)
+                      example: 123
+                    temperature:
+                      type: number
+                      description: |
+                        Current temperature
+                        Mapping: `metData.t`
+                      example: 4
+                    humidity:
+                      type: number
+                      description: |
+                        Current humidity
+                        Mapping: `metData.rh`
+                      example: 66
+
+        "400":
+          description: Bad request
+        "500":
+          description: Server error

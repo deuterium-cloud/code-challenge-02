@@ -1,0 +1,2121 @@
+<data id="MeteoSI_WebMet_observation_xml">
+    <language>sl</language>
+    <credit>Agencija Republike Slovenije za okolje</credit>
+    <credit_url>https://meteo.arso.gov.si/</credit_url>
+    <image_url>https://meteo.arso.gov.si/uploads/meteo/style/img/logo/ARSO_vreme_blue_small.png</image_url>
+    <suggested_pickup>25 minutes after hour</suggested_pickup>
+    <suggested_pickup_period>60</suggested_pickup_period>
+    <webcam_url_base>https://meteo.arso.gov.si//uploads/probase/www/observ/webcam/</webcam_url_base>
+    <icon_url_base>https://meteo.arso.gov.si/uploads/meteo/style/img/weather/</icon_url_base>
+    <icon_format>png</icon_format>
+    <docs_url>https://meteo.arso.gov.si/uploads/meteo/help/sl/xml_service.html</docs_url>
+    <disclaimer_url>https://meteo.arso.gov.si/uploads/meteo/help/sl/disclaimer.html</disclaimer_url>
+    <copyright_url>https://meteo.arso.gov.si/uploads/meteo/help/sl/copyright.html</copyright_url>
+    <privacy_policy_url>https://meteo.arso.gov.si/uploads/meteo/help/sl/notice.html</privacy_policy_url>
+    <managing_editor>gp.arso@gov.si (Agencija Republike Slovenije za okolje)</managing_editor>
+    <web_master>gp.arso@gov.si (Agencija Republike Slovenije za okolje)</web_master>
+    <generator>AutoPro/ProCreator</generator>
+    <collection>si</collection>
+    <meteosi_url>https://meteo.arso.gov.si//uploads/probase/www/observ/surface/text/sl/observation_si_latest.html</meteosi_url>
+    <two_day_history_url/>
+    <metData>
+        <domain_meteosiId>NOVA-GOR_</domain_meteosiId>
+        <domain_id>64795637</domain_id>
+        <domain_parentId>SI_GORISKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.8958</domain_lat>
+        <domain_lon>13.6289</domain_lon>
+        <domain_altitude>55.0</domain_altitude>
+        <domain_title>NOVA GORICA</domain_title>
+        <domain_shortTitle>BILJE</domain_shortTitle>
+        <domain_longTitle>Bilje pri Novi Gorici</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:35 CEST</sunrise>
+        <sunset>14.05.2023 20:29 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>oblačno</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>12</t>
+        <t_degreesC>12</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>97</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>12</td>
+        <td_degreesC>12</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>309</dd_val>
+        <dd_icon>NW</dd_icon>
+        <dd_shortText>SZ</dd_shortText>
+        <dd_longText>severozahodnik</dd_longText>
+        <dd_decodeText>NW</dd_decodeText>
+        <ddff_icon>lightNW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>0.6</ff_val>
+        <ff_val_kmh>2</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>1004</p>
+        <p_mb>1004</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>CELJE_</domain_meteosiId>
+        <domain_id>64768320</domain_id>
+        <domain_parentId>SI_SAVINJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.2447</domain_lat>
+        <domain_lon>15.2525</domain_lon>
+        <domain_altitude>244.0</domain_altitude>
+        <domain_title>CELJE</domain_title>
+        <domain_shortTitle>CELJE</domain_shortTitle>
+        <domain_longTitle>Celje</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:28 CEST</sunrise>
+        <sunset>14.05.2023 20:24 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>12</t>
+        <t_degreesC>12</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>94</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>11</td>
+        <td_degreesC>11</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>161</dd_val>
+        <dd_icon>S</dd_icon>
+        <dd_shortText>J</dd_shortText>
+        <dd_longText>južni veter</dd_longText>
+        <dd_decodeText>S</dd_decodeText>
+        <ddff_icon>lightS</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>1.1</ff_val>
+        <ff_val_kmh>4</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>982</p>
+        <p_mb>982</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>CRNOMELJ_</domain_meteosiId>
+        <domain_id>64781074</domain_id>
+        <domain_parentId>SI_BELOKRANJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.5603</domain_lat>
+        <domain_lon>15.1508</domain_lon>
+        <domain_altitude>157.0</domain_altitude>
+        <domain_title>CRNOMELJ</domain_title>
+        <domain_shortTitle>ČRNOMELJ - DOBLIČE</domain_shortTitle>
+        <domain_longTitle>Črnomelj</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:30 CEST</sunrise>
+        <sunset>14.05.2023 20:22 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon>lightRA</wwsyn_icon>
+        <wwsyn_shortText>rahel dež</wwsyn_shortText>
+        <wwsyn_longText>rahlo dežuje</wwsyn_longText>
+        <nn_shortText-wwsyn_longText>rahlo dežuje</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>lightRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>13</t>
+        <t_degreesC>13</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>4</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>97</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>12</td>
+        <td_degreesC>12</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>120</dd_val>
+        <dd_icon>SE</dd_icon>
+        <dd_shortText/>
+        <dd_longText>jugovzhodnik</dd_longText>
+        <dd_decodeText>SE</dd_decodeText>
+        <ddff_icon>lightSE</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>0.4</ff_val>
+        <ff_val_kmh>1</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>992</p>
+        <p_mb>992</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>KATARINA_</domain_meteosiId>
+        <domain_id>64791892</domain_id>
+        <domain_parentId>SI_OSREDNJESLOVENSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.0933</domain_lat>
+        <domain_lon>14.3756</domain_lon>
+        <domain_altitude>660</domain_altitude>
+        <domain_title>KATARINA</domain_title>
+        <domain_shortTitle>TOPOL PRI MEDVODAH</domain_shortTitle>
+        <domain_longTitle>Katarina nad Ljubljano</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:32 CEST</sunrise>
+        <sunset>14.05.2023 20:27 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon>heavyRA</wwsyn_icon>
+        <wwsyn_shortText>močen dež</wwsyn_shortText>
+        <wwsyn_longText>močno dežuje</wwsyn_longText>
+        <nn_shortText-wwsyn_longText>močno dežuje</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>heavyRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>9</t>
+        <t_degreesC>9</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>96</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td/>
+        <td_degreesC/>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val/>
+        <dd_icon/>
+        <dd_shortText/>
+        <dd_longText/>
+        <dd_decodeText/>
+        <ddff_icon/>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val/>
+        <ff_val_kmh/>
+        <ff_value/>
+        <ff_value_kmh/>
+        <ff_minimum/>
+        <ff_minimum_kmh/>
+        <ff_maximum/>
+        <ff_maximum_kmh/>
+        <ff_icon/>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p/>
+        <p_mb/>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>KOCEVJE_</domain_meteosiId>
+        <domain_id>64765455</domain_id>
+        <domain_parentId>SI_KOCEVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.6453</domain_lat>
+        <domain_lon>14.8542</domain_lon>
+        <domain_altitude>467.0</domain_altitude>
+        <domain_title>KOCEVJE</domain_title>
+        <domain_shortTitle>KOČEVJE</domain_shortTitle>
+        <domain_longTitle>Kočevje</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:31 CEST</sunrise>
+        <sunset>14.05.2023 20:23 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon>lightRA</wwsyn_icon>
+        <wwsyn_shortText>rahel dež</wwsyn_shortText>
+        <wwsyn_longText>rahlo dežuje</wwsyn_longText>
+        <nn_shortText-wwsyn_longText>rahlo dežuje</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>lightRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>10</t>
+        <t_degreesC>10</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>97</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td/>
+        <td_degreesC/>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val/>
+        <dd_icon/>
+        <dd_shortText/>
+        <dd_longText/>
+        <dd_decodeText/>
+        <ddff_icon/>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val/>
+        <ff_val_kmh/>
+        <ff_value/>
+        <ff_value_kmh/>
+        <ff_minimum/>
+        <ff_minimum_kmh/>
+        <ff_maximum/>
+        <ff_maximum_kmh/>
+        <ff_icon/>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p/>
+        <p_mb/>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>KREDA-ICA_</domain_meteosiId>
+        <domain_id>64777659</domain_id>
+        <domain_parentId>SI_ZGORNJESAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.3794</domain_lat>
+        <domain_lon>13.8539</domain_lon>
+        <domain_altitude>2514</domain_altitude>
+        <domain_title>KREDARICA</domain_title>
+        <domain_shortTitle>KREDARICA</domain_shortTitle>
+        <domain_longTitle>Kredarica</domain_longTitle>
+        <title>AAXX</title>
+        <sunrise>14.05.2023 5:33 CEST</sunrise>
+        <sunset>14.05.2023 20:30 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon>lightSN</wwsyn_icon>
+        <wwsyn_shortText>rahlo sneženje</wwsyn_shortText>
+        <wwsyn_longText>rahlo sneži</wwsyn_longText>
+        <nn_shortText-wwsyn_longText>rahlo sneži</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast_lightSN</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>-2</t>
+        <t_degreesC>-2</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>30</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>98</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>-2</td>
+        <td_degreesC>-2</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>275</dd_val>
+        <dd_icon>W</dd_icon>
+        <dd_shortText>Z</dd_shortText>
+        <dd_longText>zahodnik</dd_longText>
+        <dd_decodeText>W</dd_decodeText>
+        <ddff_icon>lightW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>4.6</ff_val>
+        <ff_val_kmh>17</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>744</p>
+        <p_mb>744</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>mountain</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>CERKLJE_LETAL-SCE_</domain_meteosiId>
+        <domain_id>65358572</domain_id>
+        <domain_parentId>SI_SPODNJEPOSAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.8936</domain_lat>
+        <domain_lon>15.525</domain_lon>
+        <domain_altitude>154.0</domain_altitude>
+        <domain_title>CERKLJE - LETALISCE</domain_title>
+        <domain_shortTitle>CERKLJE - LETALIŠČE</domain_shortTitle>
+        <domain_longTitle>Letališče Cerklje ob Krki</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:28 CEST</sunrise>
+        <sunset>14.05.2023 20:21 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>oblačno</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>12</t>
+        <t_degreesC>12</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>92</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>11</td>
+        <td_degreesC>11</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>105</dd_val>
+        <dd_icon>E</dd_icon>
+        <dd_shortText>V</dd_shortText>
+        <dd_longText>vzhodnik</dd_longText>
+        <dd_decodeText>E</dd_decodeText>
+        <ddff_icon>lightE</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>0.7</ff_val>
+        <ff_val_kmh>3</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>992</p>
+        <p_mb>992</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>MARIBOR_SLIVNICA_</domain_meteosiId>
+        <domain_id>64771898</domain_id>
+        <domain_parentId>SI_PODRAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.48</domain_lat>
+        <domain_lon>15.6869</domain_lon>
+        <domain_altitude>264.0</domain_altitude>
+        <domain_title>MARIBOR/SLIVNICA</domain_title>
+        <domain_shortTitle>MARIBOR - LETALIŠČE</domain_shortTitle>
+        <domain_longTitle>Letališče Edvarda Rusjana Maribor</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:25 CEST</sunrise>
+        <sunset>14.05.2023 20:23 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>oblačno</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>11</t>
+        <t_degreesC>11</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>94</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>10</td>
+        <td_degreesC>10</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>16</dd_val>
+        <dd_icon>N</dd_icon>
+        <dd_shortText>S</dd_shortText>
+        <dd_longText>severnik</dd_longText>
+        <dd_decodeText>N</dd_decodeText>
+        <ddff_icon>lightN</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>3.1</ff_val>
+        <ff_val_kmh>11</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1012</msl>
+        <msl_mb>1012</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>980</p>
+        <p_mb>980</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>LJUBL-ANA_BRNIK_</domain_meteosiId>
+        <domain_id>64771022</domain_id>
+        <domain_parentId>SI_GORENJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.2178</domain_lat>
+        <domain_lon>14.4775</domain_lon>
+        <domain_altitude>364.0</domain_altitude>
+        <domain_title>LJUBLJANA/BRNIK</domain_title>
+        <domain_shortTitle>BRNIK - LETALIŠČE</domain_shortTitle>
+        <domain_longTitle>Letališče Jožeta Pučnika Ljubljana</domain_longTitle>
+        <title>AAXX</title>
+        <sunrise>14.05.2023 5:31 CEST</sunrise>
+        <sunset>14.05.2023 20:27 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon>lightRA</wwsyn_icon>
+        <wwsyn_shortText>rahel dež</wwsyn_shortText>
+        <wwsyn_longText>rahlo dežuje</wwsyn_longText>
+        <nn_shortText-wwsyn_longText>rahlo dežuje</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast_lightRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>10</t>
+        <t_degreesC>10</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>30</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>92</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>8</td>
+        <td_degreesC>8</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>300</dd_val>
+        <dd_icon>NW</dd_icon>
+        <dd_shortText>SZ</dd_shortText>
+        <dd_longText>severozahodnik</dd_longText>
+        <dd_decodeText>NW</dd_decodeText>
+        <ddff_icon>lightNW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>3.2</ff_val>
+        <ff_val_kmh>12</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>966</p>
+        <p_mb>966</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>LESCE_</domain_meteosiId>
+        <domain_id>64769915</domain_id>
+        <domain_parentId>SI_GORENJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.37</domain_lat>
+        <domain_lon>14.18</domain_lon>
+        <domain_altitude>509.0</domain_altitude>
+        <domain_title>LESCE</domain_title>
+        <domain_shortTitle>LESCE</domain_shortTitle>
+        <domain_longTitle>Letališče Lesce</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:32 CEST</sunrise>
+        <sunset>14.05.2023 20:28 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>8</t>
+        <t_degreesC>8</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>90</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>7</td>
+        <td_degreesC>7</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>343</dd_val>
+        <dd_icon>N</dd_icon>
+        <dd_shortText>S</dd_shortText>
+        <dd_longText>severnik</dd_longText>
+        <dd_decodeText>N</dd_decodeText>
+        <ddff_icon>lightN</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>2.1</ff_val>
+        <ff_val_kmh>8</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1012</msl>
+        <msl_mb>1012</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>952</p>
+        <p_mb>952</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>PORTOROZ_SECOVLJE_</domain_meteosiId>
+        <domain_id>64791667</domain_id>
+        <domain_parentId>SI_OBALNO-KRASKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.4756</domain_lat>
+        <domain_lon>13.6206</domain_lon>
+        <domain_altitude>2.0</domain_altitude>
+        <domain_title>PORTOROZ/SECOVLJE</domain_title>
+        <domain_shortTitle>PORTOROŽ - LETALIŠČE</domain_shortTitle>
+        <domain_longTitle>Letališče Portorož</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:37 CEST</sunrise>
+        <sunset>14.05.2023 20:28 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>oblačno</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>14</t>
+        <t_degreesC>14</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>93</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>13</td>
+        <td_degreesC>13</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>192</dd_val>
+        <dd_icon>S</dd_icon>
+        <dd_shortText>J</dd_shortText>
+        <dd_longText>južni veter</dd_longText>
+        <dd_decodeText>S</dd_decodeText>
+        <ddff_icon>lightS</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>0.5</ff_val>
+        <ff_val_kmh>2</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1010</msl>
+        <msl_mb>1010</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>1010</p>
+        <p_mb>1010</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>sea-coast</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>LISCA_</domain_meteosiId>
+        <domain_id>64782292</domain_id>
+        <domain_parentId>SI_SPODNJEPOSAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.0681</domain_lat>
+        <domain_lon>15.2897</domain_lon>
+        <domain_altitude>947</domain_altitude>
+        <domain_title>LISCA</domain_title>
+        <domain_shortTitle>LISCA</domain_shortTitle>
+        <domain_longTitle>Lisca</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:28 CEST</sunrise>
+        <sunset>14.05.2023 20:23 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>FG</nn_icon>
+        <nn_shortText>v oblakih</nn_shortText>
+        <nn_decodeText>v9/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>v oblakih</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>FG</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>7</t>
+        <t_degreesC>7</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>0</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>98</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>7</td>
+        <td_degreesC>7</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>11</dd_val>
+        <dd_icon>N</dd_icon>
+        <dd_shortText>S</dd_shortText>
+        <dd_longText>severnik</dd_longText>
+        <dd_decodeText>N</dd_decodeText>
+        <ddff_icon>modN</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>5.3</ff_val>
+        <ff_val_kmh>19</ff_val_kmh>
+        <ff_value>8</ff_value>
+        <ff_value_kmh>29</ff_value_kmh>
+        <ff_minimum>5</ff_minimum>
+        <ff_minimum_kmh>18</ff_minimum_kmh>
+        <ff_maximum>10</ff_maximum>
+        <ff_maximum_kmh>36</ff_maximum_kmh>
+        <ff_icon>mod</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>903</p>
+        <p_mb>903</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>mountain</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>LJUBL-ANA_BEZIGRAD_</domain_meteosiId>
+        <domain_id>65142878</domain_id>
+        <domain_parentId>SI_OSREDNJESLOVENSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.0658</domain_lat>
+        <domain_lon>14.5172</domain_lon>
+        <domain_altitude>299.0</domain_altitude>
+        <domain_title>LJUBLJANA/BEZIGRAD</domain_title>
+        <domain_shortTitle>LJUBLJANA - BEŽIGRAD</domain_shortTitle>
+        <domain_longTitle>Ljubljana</domain_longTitle>
+        <title>AAXX</title>
+        <sunrise>14.05.2023 5:31 CEST</sunrise>
+        <sunset>14.05.2023 20:26 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>oblačno</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>11</t>
+        <t_degreesC>11</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>10</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>82</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>9</td>
+        <td_degreesC>9</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>329</dd_val>
+        <dd_icon>NW</dd_icon>
+        <dd_shortText>SZ</dd_shortText>
+        <dd_longText>severozahodnik</dd_longText>
+        <dd_decodeText>NW</dd_decodeText>
+        <ddff_icon>lightNW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>1.4</ff_val>
+        <ff_val_kmh>5</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>976</p>
+        <p_mb>976</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>MURSK-SOB_</domain_meteosiId>
+        <domain_id>64772156</domain_id>
+        <domain_parentId>SI_POMURSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.6525</domain_lat>
+        <domain_lon>16.1961</domain_lon>
+        <domain_altitude>188.0</domain_altitude>
+        <domain_title>MURSKA SOBOTA</domain_title>
+        <domain_shortTitle>MURSKA SOBOTA - RAKIČAN</domain_shortTitle>
+        <domain_longTitle>Murska Sobota</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:23 CEST</sunrise>
+        <sunset>14.05.2023 20:21 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>prevCloudy</nn_icon>
+        <nn_shortText>pretežno oblačno</nn_shortText>
+        <nn_decodeText>6/8 .. 7/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>pretežno oblačno</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>prevCloudy</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>11</t>
+        <t_degreesC>11</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>50</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>96</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>11</td>
+        <td_degreesC>11</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>293</dd_val>
+        <dd_icon>NW</dd_icon>
+        <dd_shortText>SZ</dd_shortText>
+        <dd_longText>severozahodnik</dd_longText>
+        <dd_decodeText>NW</dd_decodeText>
+        <ddff_icon>lightNW</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>1</ff_val>
+        <ff_val_kmh>4</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>990</p>
+        <p_mb>990</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>NOVO-MES_</domain_meteosiId>
+        <domain_id>64783785</domain_id>
+        <domain_parentId>SI_DOLENJSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.8019</domain_lat>
+        <domain_lon>15.1822</domain_lon>
+        <domain_altitude>220.0</domain_altitude>
+        <domain_title>NOVO MESTO</domain_title>
+        <domain_shortTitle>NOVO MESTO</domain_shortTitle>
+        <domain_longTitle>Novo mesto</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:29 CEST</sunrise>
+        <sunset>14.05.2023 20:23 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>oblačno</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>12</t>
+        <t_degreesC>12</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>20</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>97</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>11</td>
+        <td_degreesC>11</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>22</dd_val>
+        <dd_icon>N</dd_icon>
+        <dd_shortText>S</dd_shortText>
+        <dd_longText>severnik</dd_longText>
+        <dd_decodeText>N</dd_decodeText>
+        <ddff_icon>lightN</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>1</ff_val>
+        <ff_val_kmh>4</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl>1011</msl>
+        <msl_mb>1011</msl_mb>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p>985</p>
+        <p_mb>985</p_mb>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>POSTOJNA_</domain_meteosiId>
+        <domain_id>64770646</domain_id>
+        <domain_parentId>SI_NOTRANJSKO-KRASKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>45.7664</domain_lat>
+        <domain_lon>14.1975</domain_lon>
+        <domain_altitude>533.0</domain_altitude>
+        <domain_title>POSTOJNA</domain_title>
+        <domain_shortTitle>POSTOJNA</domain_shortTitle>
+        <domain_longTitle>Postojna</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:34 CEST</sunrise>
+        <sunset>14.05.2023 20:26 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>overcast</nn_icon>
+        <nn_shortText>oblačno</nn_shortText>
+        <nn_decodeText>7/8 .. 8/8</nn_decodeText>
+        <wwsyn_icon>heavyRA</wwsyn_icon>
+        <wwsyn_shortText>močen dež</wwsyn_shortText>
+        <wwsyn_longText>močno dežuje</wwsyn_longText>
+        <nn_shortText-wwsyn_longText>močno dežuje</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>overcast_heavyRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>10</t>
+        <t_degreesC>10</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>4</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>95</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>9</td>
+        <td_degreesC>9</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>19</dd_val>
+        <dd_icon>N</dd_icon>
+        <dd_shortText>S</dd_shortText>
+        <dd_longText>severnik</dd_longText>
+        <dd_decodeText>N</dd_decodeText>
+        <ddff_icon>lightN</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>2.9</ff_val>
+        <ff_val_kmh>10</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p/>
+        <p_mb/>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>RATECE_</domain_meteosiId>
+        <domain_id>64765312</domain_id>
+        <domain_parentId>SI_ZGORNJESAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.4975</domain_lat>
+        <domain_lon>13.7175</domain_lon>
+        <domain_altitude>864.0</domain_altitude>
+        <domain_title>RATECE</domain_title>
+        <domain_shortTitle>RATEČE - PLANICA</domain_shortTitle>
+        <domain_longTitle>Rateče</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:33 CEST</sunrise>
+        <sunset>14.05.2023 20:31 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon>lightSHRA</wwsyn_icon>
+        <wwsyn_shortText>manjša ploha</wwsyn_shortText>
+        <wwsyn_longText>manjša ploha</wwsyn_longText>
+        <nn_shortText-wwsyn_longText>manjša ploha</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>lightSHRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>6</t>
+        <t_degreesC>6</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>2</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>94</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>5</td>
+        <td_degreesC>5</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val/>
+        <dd_icon/>
+        <dd_shortText/>
+        <dd_longText/>
+        <dd_decodeText/>
+        <ddff_icon/>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val/>
+        <ff_val_kmh/>
+        <ff_value/>
+        <ff_value_kmh/>
+        <ff_minimum/>
+        <ff_minimum_kmh/>
+        <ff_maximum/>
+        <ff_maximum_kmh/>
+        <ff_icon/>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p/>
+        <p_mb/>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>mountain-valley</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>SLOVE-GRA_</domain_meteosiId>
+        <domain_id>64783196</domain_id>
+        <domain_parentId>SI_KOROSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.49</domain_lat>
+        <domain_lon>15.1161</domain_lon>
+        <domain_altitude>455.0</domain_altitude>
+        <domain_title>SLOVENJ GRADEC</domain_title>
+        <domain_shortTitle>ŠMARTNO PRI SLOVENJ GRADCU</domain_shortTitle>
+        <domain_longTitle>Slovenj Gradec</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:28 CEST</sunrise>
+        <sunset>14.05.2023 20:25 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon>prevCloudy</nn_icon>
+        <nn_shortText>pretežno oblačno</nn_shortText>
+        <nn_decodeText>6/8 .. 7/8</nn_decodeText>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText>pretežno oblačno</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>prevCloudy</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>10</t>
+        <t_degreesC>10</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value>70</vis_value>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>90</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td>8</td>
+        <td_degreesC>8</td_degreesC>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val>342</dd_val>
+        <dd_icon>N</dd_icon>
+        <dd_shortText>S</dd_shortText>
+        <dd_longText>severnik</dd_longText>
+        <dd_decodeText>N</dd_decodeText>
+        <ddff_icon>lightN</ddff_icon>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val>1.4</ff_val>
+        <ff_val_kmh>5</ff_val_kmh>
+        <ff_value>3</ff_value>
+        <ff_value_kmh>11</ff_value_kmh>
+        <ff_minimum>0</ff_minimum>
+        <ff_minimum_kmh>0</ff_minimum_kmh>
+        <ff_maximum>5</ff_maximum>
+        <ff_maximum_kmh>18</ff_maximum_kmh>
+        <ff_icon>light</ff_icon>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p/>
+        <p_mb/>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>general</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>VOGEL_</domain_meteosiId>
+        <domain_id>64771020</domain_id>
+        <domain_parentId>SI_ZGORNJESAVSKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.2639</domain_lat>
+        <domain_lon>13.8456</domain_lon>
+        <domain_altitude>1535</domain_altitude>
+        <domain_title>VOGEL</domain_title>
+        <domain_shortTitle>VOGEL</domain_shortTitle>
+        <domain_longTitle>Vogel</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:33 CEST</sunrise>
+        <sunset>14.05.2023 20:29 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon>modRA</wwsyn_icon>
+        <wwsyn_shortText>dež</wwsyn_shortText>
+        <wwsyn_longText>dežuje</wwsyn_longText>
+        <nn_shortText-wwsyn_longText>dežuje</nn_shortText-wwsyn_longText>
+        <nn_icon-wwsyn_icon>modRA</nn_icon-wwsyn_icon>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t>3</t>
+        <t_degreesC>3</t_degreesC>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh>96</rh>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td/>
+        <td_degreesC/>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val/>
+        <dd_icon/>
+        <dd_shortText/>
+        <dd_longText/>
+        <dd_decodeText/>
+        <ddff_icon/>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val/>
+        <ff_val_kmh/>
+        <ff_value/>
+        <ff_value_kmh/>
+        <ff_minimum/>
+        <ff_minimum_kmh/>
+        <ff_maximum/>
+        <ff_maximum_kmh/>
+        <ff_icon/>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p/>
+        <p_mb/>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>mountain</domain_geoType>
+        <note/>
+    </metData>
+    <metData>
+        <domain_meteosiId>VOJSKO_</domain_meteosiId>
+        <domain_id>64786659</domain_id>
+        <domain_parentId>SI_NOTRANJSKO-KRASKA_</domain_parentId>
+        <domain_countryIsoCode2>SI</domain_countryIsoCode2>
+        <domain_lat>46.0253</domain_lat>
+        <domain_lon>13.9078</domain_lon>
+        <domain_altitude>1067</domain_altitude>
+        <domain_title>VOJSKO</domain_title>
+        <domain_shortTitle>VOJSKO</domain_shortTitle>
+        <domain_longTitle>Vojsko</domain_longTitle>
+        <title>AAXXauto</title>
+        <sunrise>14.05.2023 5:34 CEST</sunrise>
+        <sunset>14.05.2023 20:28 CEST</sunset>
+        <tsValid_issued>14.05.2023 22:00 CEST</tsValid_issued>
+        <tsValid_issued_day>Nedelja CEST</tsValid_issued_day>
+        <tsValid_issued_UTC>14.05.2023 20:00 UTC</tsValid_issued_UTC>
+        <tsValid_issued_RFC822>14 May 2023 20:00:00 +0000</tsValid_issued_RFC822>
+        <tsUpdated>14.05.2023 22:30 CEST</tsUpdated>
+        <tsUpdated_day>Nedelja CEST</tsUpdated_day>
+        <tsUpdated_UTC>14.05.2023 20:30 UTC</tsUpdated_UTC>
+        <tsUpdated_RFC822>14 May 2023 20:30:00 +0000</tsUpdated_RFC822>
+        <valid_day>Nedelja CEST</valid_day>
+        <valid>14.05.2023 22:00 CEST</valid>
+        <valid_UTC>14.05.2023 20:00 UTC</valid_UTC>
+        <nn_icon/>
+        <nn_shortText/>
+        <nn_decodeText/>
+        <wwsyn_icon/>
+        <wwsyn_shortText/>
+        <wwsyn_longText/>
+        <nn_shortText-wwsyn_longText/>
+        <nn_icon-wwsyn_icon/>
+        <t_var_desc>Temperatura</t_var_desc>
+        <t_var_unit>°C</t_var_unit>
+        <t/>
+        <t_degreesC/>
+        <tw_var_desc>Temperatura vode</tw_var_desc>
+        <tw_var_unit>°C</tw_var_unit>
+        <tw/>
+        <tnsyn_var_desc>Minimalna temperatura</tnsyn_var_desc>
+        <tnsyn_var_unit>°C</tnsyn_var_unit>
+        <tnsyn/>
+        <txsyn_var_desc>Maksimalna temperatura</txsyn_var_desc>
+        <txsyn_var_unit>°C</txsyn_var_unit>
+        <txsyn/>
+        <windchill/>
+        <vis_value/>
+        <vis_unit>km</vis_unit>
+        <rh_var_desc>Vlažnost</rh_var_desc>
+        <rh_var_unit>%</rh_var_unit>
+        <rh/>
+        <td_var_desc>Temperatura rosišča</td_var_desc>
+        <td_var_unit>°C</td_var_unit>
+        <td/>
+        <td_degreesC/>
+        <dd_var_desc>Smer vetra</dd_var_desc>
+        <dd_var_unit>°</dd_var_unit>
+        <dd_val/>
+        <dd_icon/>
+        <dd_shortText/>
+        <dd_longText/>
+        <dd_decodeText/>
+        <ddff_icon/>
+        <ff_var_desc>Hitrost vetra</ff_var_desc>
+        <ff_var_unit>m/s</ff_var_unit>
+        <ff_val/>
+        <ff_val_kmh/>
+        <ff_value/>
+        <ff_value_kmh/>
+        <ff_minimum/>
+        <ff_minimum_kmh/>
+        <ff_maximum/>
+        <ff_maximum_kmh/>
+        <ff_icon/>
+        <ffmax_var_desc>Sunki vetra</ffmax_var_desc>
+        <ffmax_var_unit>m/s</ffmax_var_unit>
+        <ffmax_val/>
+        <ffmax_val_kmh/>
+        <msl_var_desc>Tlak</msl_var_desc>
+        <msl_var_unit>hPa</msl_var_unit>
+        <msl/>
+        <msl_mb/>
+        <p_var_desc>Tlak</p_var_desc>
+        <p_var_unit>hPa</p_var_unit>
+        <p/>
+        <p_mb/>
+        <pa_var_desc>Tendenca tlaka</pa_var_desc>
+        <pa_var_unit> </pa_var_unit>
+        <pa_shortText/>
+        <rr24h_var_desc>Padavine v zadnjih 24h</rr24h_var_desc>
+        <rr24h_var_unit>mm</rr24h_var_unit>
+        <rr24h_val/>
+        <snow_var_desc>Skupna višina snežne odeje</snow_var_desc>
+        <snow_var_unit>cm</snow_var_unit>
+        <snow/>
+        <rrHh_var_desc>Interval merjenja padavin</rrHh_var_desc>
+        <rrHh_var_unit>h</rrHh_var_unit>
+        <rrHh>24</rrHh>
+        <snowNew_var_desc>Novozapadli sneg</snowNew_var_desc>
+        <snowNew_var_unit>cm</snowNew_var_unit>
+        <snowNew_val/>
+        <domain_geoType>mountain</domain_geoType>
+        <note/>
+    </metData>
+</data>

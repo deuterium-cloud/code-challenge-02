@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+
+  mongodb:
+    restart: always
+    image: mongo:4.4.4
+    container_name: 'mongo_dhimahi'
+    expose:
+      - "27017"
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=admin_password
+      - MONGO_INITDB_DATABASE=admin
+    volumes:
+      - ./scripts/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+      - ./mongo-volume:/data/db
+
+  fetcher-service:
+    container_name: 'fetcher_dhimahi'
+    build:
+      context: ./fetcher
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+    environment:
+      - spring.data.mongodb.uri=mongodb://dhimahi_user:dhimahi_password@mongodb:27017/meteodb?authSource=admin
+      - app.meteo.url=https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observation_si_latest.xml
+      - app.scheduler.rate-ms=60000
+    depends_on:
+      - mongodb
+
+  query-service:
+    container_name: 'query_dhimahi'
+    build:
+      context: ./query
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8080"
+    environment:
+      - spring.data.mongodb.uri=mongodb://dhimahi_user:dhimahi_password@mongodb:27017/meteodb?authSource=admin
+    depends_on:
+      - mongodb
